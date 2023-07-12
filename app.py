@@ -38,7 +38,7 @@ def create_item():
     if (
         "price" not in item_data
         or "store_id" not in item_data
-        or "name not in item_data" not in item_data
+        or "name" not in item_data  not in item_data
     ):
         abort(
             404,
